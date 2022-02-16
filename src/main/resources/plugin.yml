@@ -1,0 +1,12 @@
+name: PaperPluginNewrelic
+version: '${project.version}'
+main: net.disk0401.paperpluginnewrelic.PaperPluginNewrelic
+api-version: 1.17
+authors: [ DISK0401 ]
+description: Monitor the paperMC with NewRelic APM.
+website: https://disk0401.net
+commands:
+  newrelic:
+    aliases: [nr]
+    description: Monitor the paperMC with NewRelic APM.
+    permission-message: Not-Permission(PPNR)
